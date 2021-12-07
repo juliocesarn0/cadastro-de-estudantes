@@ -1,0 +1,101 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 30px;
+
+  background-color: #ffffff;
+  border-radius: 20px;
+
+  width: 25rem;
+}
+
+.title{
+    margin: 10px;
+}
+
+.students {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    width: auto;
+  }
+  .students li {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    
+    background-color: rgb(252, 255, 100);
+
+    margin: 5px;
+    padding: 2px;
+    border-radius: 4px;
+    height: auto;
+  }
+  .students li:hover {
+    color: #2c3a41;
+    background-color: rgb(247, 182, 63);
+    left: .1em;
+  }
+  .students li.selected {
+    background-color: rgb(48, 119, 177);
+    color: white;
+  }
+  .students li.selected:hover {
+    background-color: rgb(26, 66, 99);
+    color: white;
+  }
+  .students li.selected:active {
+    background-color: rgb(48, 119, 177);
+    color: white;
+  }
+
+  .add-button{
+    background-color:rgb(255, 68, 99);
+    color: white;
+
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 2.3rem;
+    width: 190px;
+    cursor: pointer;
+  }
+
+  .add-button:hover{
+    color: #e6e6e6;
+    background-color: rgb(197, 27, 55);
+  }
+
+  
+a{
+  text-decoration: none;
+  color: black;
+  margin-top: 0.28rem;
+  height: auto;
+}
+
+.delete{
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 25px;
+
+  margin-left: 2rem;
+  cursor: pointer;
+
+  background-color: rgb(247, 182, 63);
+   
+}
+
+.delete:hover{
+  background-color: rgb(252, 255, 100);
+
+}

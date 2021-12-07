@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center; 
+}
+
+.content{
+    display: block;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    padding: 30px;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+    width: 25rem;
+}
+
+.students[_ngcontent-ppx-c41] {
+    margin: 0;
+    list-style-type: none;
+}  
+
+input{
+    font-size: 0.9rem;
+}
+
+
+.title{
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(252, 255, 100);
+    padding: 10px;
+    border-radius: 9px;
+    font-size: 1rem;
+    margin: 4px;
+}
+
+button:hover{
+    background-color: rgb(247, 182, 63);
+    cursor: pointer;
+}

@@ -1,21 +1,43 @@
-/* AppComponent's private CSS styles */
-h1 {
-  margin-bottom: 0;
-}
-nav a {
-  padding: 1rem;
-  text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
-  background-color: #e8e8e8;
-  color: #3d3d3d;
-  border-radius: 4px;
+.container{
+    display: flex;
+    justify-content: center;
 }
 
-nav a:hover {
-  color: white;
-  background-color: #42545C;
+.content{
+    display: block;
+    justify-content: center;
+
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+    padding: 30px;
+
+    background-color: #ffffff;
+    width: auto;
+    border-radius: 20px;
 }
-nav a.active {
-  background-color: black;
+
+.nav{
+    margin-top: 10px;
 }
+.nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: rgb(48, 119, 177);
+    color: white;
+    border-radius: 14px;
+  }
+  
+  .nav a:hover {
+    color: white;
+    background-color: rgb(26, 66, 99);
+  }
+  .nav a.active {
+    background-color: black;
+  }
